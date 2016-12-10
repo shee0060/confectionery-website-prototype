@@ -57,7 +57,7 @@ a {
   color: #fff;
 }
 
-a:hover {
+.nav:hover {
   background-color: #fff;
   color: #000;
 }
@@ -74,6 +74,21 @@ img {
 
 div {
   text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin: .5em;
+  padding: .2em 1em;
+  background-color: #555;
+  color: #fff;
+  border: 3px #fff solid;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: #666;
+  background-color: #fff;
 }
 
 section {
