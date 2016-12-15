@@ -124,9 +124,16 @@ section {
 }
 
 .review-section {
-  margin: 0;
+  margin: 0 0 4rem;
   padding: 0;
 }
+
+.review-card {
+  border: 3px #000 solid;
+  border-radius: 10px;
+  margin: 1em;
+}
+
 .review-img {
   display: inline-block;
   width: 50%;
@@ -134,7 +141,8 @@ section {
 }
 
 .review-text {
-  display: inline-block;
+  float: left;
+  width: 40%;
   padding: 0;
   margin: 0;
 }
