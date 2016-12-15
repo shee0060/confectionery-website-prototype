@@ -123,6 +123,20 @@ section {
   padding: 0;
 }
 
+.review-img {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.review-text {
+  float: left;
+  width: 75%;
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   position: fixed;
   width: 100%;
