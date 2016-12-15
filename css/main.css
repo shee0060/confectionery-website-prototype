@@ -201,16 +201,19 @@ footer {
     margin: 0;
   }
 
+  .box-three {
+    overflow: hidden;
+  }
+
   .four-img {
-    width: 30%;
+    width: 33.3333%;
     padding: 0;
   }
 
   .extra-img {
     display: inline-block;
     float: left;
-    width: 30%;
-    margin: 0;
+    width: 33.3333%;
   }
 
 }
@@ -233,6 +236,11 @@ footer {
     width: 30%;
     height: 100vh;
     background-color: #bdbdbd;
+  }
+
+  nav li {
+    display: block;
+    width: 100%;
   }
 
   .review-section {
