@@ -187,6 +187,11 @@ footer {
     line-height: 1.5;
   }
 
+  nav li {
+    float: left;
+    width: 50%;
+  }
+
   img, .img-two {
     display: inline-block;
     width: 40%;
@@ -222,7 +227,6 @@ footer {
 
   header {
     position: fixed;
-    float: left;
     width: 30%;
     height: 100vh;
     background-color: #bdbdbd;
