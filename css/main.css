@@ -100,7 +100,15 @@ div {
 .box-one {
   border: 3px #000 solid;
   border-radius: 10px;
-  background: #555;
+  background-color: #555;
+  color: #fff;
+  margin: .5em;
+}
+
+.box-two {
+  border: 3px #000 solid;
+  border-radius: 10px;
+  background-color: #888;
   color: #fff;
   margin: .5em;
 }
