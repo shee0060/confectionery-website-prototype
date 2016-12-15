@@ -118,6 +118,7 @@ div {
 }
 
 section {
+  overflow: hidden;
   padding: 10px;
 }
 
@@ -179,7 +180,7 @@ footer {
 
 @media only screen and (min-width: 38em) {
   html {
-    font-size: 120%;
+    font-size: 120% normal;
     line-height: 1.5;
   }
 
@@ -202,15 +203,15 @@ footer {
     float: left;
     width: 30%;
     padding: 0;
-    margin: 0;
   }
 
   .extra-img {
     display: inline-block;
     float: left;
     width: 30%;
-    margin: 0
+    margin: 0;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -219,34 +220,17 @@ footer {
     line-height: 1.5;
   }
 
-  li {
-    border: 1px #000 solid;
-    padding: .3em;
+    main {
+    float: right;
+    width: 70%;
   }
 
-  nav ul li {
-    display: block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #555;
-    list-style-type: none;
-  }
-
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .nav:hover {
-    background-color: #fff;
-    color: #000;
+  header {
+    position: fixed;
+    float: left;
+    width: 30%;
+    height: 100vh;
+    background-color: #bdbdbd;
   }
 
   .four-img {
@@ -268,8 +252,8 @@ footer {
 
 @media only screen and (min-width: 90em) {
   html {
-    font: 130%/1.5 normal;
+    font-size: 130% normal;
+    line-height: 1.5;
   }
-
 
 }
