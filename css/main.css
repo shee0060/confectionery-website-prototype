@@ -97,6 +97,14 @@ div {
   background-color: #fff;
 }
 
+.box-one {
+  border: 3px #000 solid;
+  border-radius: 10px;
+  background: #555;
+  color: #fff;
+  margin: .5em;
+}
+
 section {
   padding: 20px;
 }
