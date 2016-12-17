@@ -236,6 +236,7 @@ footer {
   }
 
   main {
+    position: relative;
     float: right;
     width: 70%;
   }
@@ -268,10 +269,6 @@ footer {
 
   .location-pic {
     margin: 1em;
-  }
-
-  main {
-    position: relative;
   }
 
   .hours {
