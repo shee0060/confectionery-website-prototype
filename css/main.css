@@ -260,6 +260,29 @@ footer {
     float: left;
     width: 50%;
   }
+
+  .location {
+    display: block;
+    text-align: center;
+  }
+
+  .location-pic {
+    margin: 1em;
+  }
+
+  main {
+    position: relative;
+  }
+
+  .hours {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 100px;
+    padding: 0 4em;
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -275,7 +298,6 @@ footer {
   }
 
   main {
-    position: relative;
     width: 75%;
   }
 
