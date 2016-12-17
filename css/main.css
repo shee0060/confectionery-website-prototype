@@ -243,6 +243,10 @@ footer {
     width: 100%;
   }
 
+  .mobile-nav {
+    display: none;
+  }
+
   .review-section {
     float: left;
     width: 50%;
