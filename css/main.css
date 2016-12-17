@@ -71,6 +71,7 @@ a {
 }
 
 h2 {
+  font-weight: bold;
   text-align: center;
   margin: 0;
   padding: .75em 0 0;
@@ -269,12 +270,23 @@ footer {
     line-height: 1.5;
   }
 
-  .location {
-    display: none;
+  header {
+    width: 25%;
+  }
+
+  main {
+    position: relative;
+    width: 75%;
   }
 
   .hours {
-    display: none;
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 190px;
+    padding: 0 10em;
+    background-color: #000;
+    color: #fff;
   }
 
 }
